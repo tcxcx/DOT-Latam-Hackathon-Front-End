@@ -4,7 +4,7 @@ import img from '../Assets/img_mochasa.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import privateKey from './.secret';
-import mintABI from './AdvancedCollectible.json';
+import mintABI from './Advanced_collectible_ABI.json';
 import Web3 from 'web3';
 
 const Mochasa = () => {
@@ -19,7 +19,7 @@ const Mochasa = () => {
 var nft_abi = mintABI.abi;
 
 // 3. Add the Web3 provider logic here:
-const NFT_CONTRACT_ADDRESS = '0xa62D32475E30E9e4072707c9c5A07eE51b443040'
+const NFT_CONTRACT_ADDRESS = '0x7736ae714f3c53029e7f9ac0f9E1143f8883378e'
 
 // 4. Import account information - TODO: Connect metamask wallet here, get account connected in front-end
 const accountFrom = {
